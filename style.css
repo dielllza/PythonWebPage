@@ -1,0 +1,149 @@
+*{
+	/*outline: 2px dotted red;*/
+	margin: 0 auto;
+	padding: 0;
+}
+.container{
+	width: 970px;
+}
+.header{
+	background-color: #245076;
+	color: white;
+}
+	.header img{
+		width: 330px;
+		margin-right: 385px;
+	}
+	.page-configuration{
+		display: inline-block;
+		vertical-align: top;
+	}	
+		.page-configuration p{
+			font-size: 13px;
+			margin-left: 85px;
+			padding: 3px 0;
+		}
+		.page-configuration a{
+			color: yellow;
+		}
+		.page-configuration form{
+			background-color: #444444;
+			width: 203px;
+			padding: 10px 20px;
+			border-radius: 10px;
+			box-shadow: 0 2px 2px 0 black;
+			margin: 2px 2px 10px 0;
+		}
+		#search-input{
+			height: 23px;
+			width: 170px;
+			text-align: center;
+		}
+		#go-btn{
+			color: white;
+			background-color: #245076;
+			border-radius: 3px;
+			height: 23px;
+		}
+.main-content{
+	background-color: #245076;
+	padding-bottom: 18px;
+}
+	.nav-bar{
+		display: inline-block;
+		background-color: #477ead;
+		border-radius: 9px;
+		box-shadow: 0 3px 3px 0 black;
+		margin-left: 122px;
+		margin-bottom: 18px;
+	}
+		.nav-bar li{
+			display: inline-block;
+			margin: 20px;
+		}
+		.nav-bar li a{
+			text-decoration: none;
+			color: white;
+			font-size: 21px;
+		}
+	.main-content-links{
+		vertical-align: top;
+		display: inline-block;
+		text-align: center;
+		list-style-position: inside;
+		color: yellow;
+		margin-left: 122px;
+		margin-right: 46px;
+	}
+		.main-content-links li{
+			margin: 10px;
+		}
+		.main-content-links li a{
+			color: white;
+			font-size: 18px;
+		}
+	.desc-text{
+		display: inline-block;
+		width: 500px;
+		color: white;
+	}
+		.desc-text p{
+			text-align: center;
+			font-size: 14px;
+		}
+		.desc-text ul{
+			text-align: center;
+			list-style: none;
+		}
+		.desc-text ul li{
+			color:#f5ce31;
+			font-size: 20px;
+			margin: 6px 0;
+		}
+.horizontal-line{
+	width: 450px;
+	background-color: #73a7d5;
+	height: 5px;
+	margin-bottom: 8px
+}
+.first-container{
+	margin-right: 66px;
+}
+.start-applications{
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 12px;
+	padding-right: 50px;
+	text-align: center;
+}
+	.start-applications a{
+		text-decoration: none;
+		color:#7dadd8;
+	}
+	.start-applications ul {
+		list-style: square;
+		padding-left: 30px;
+
+	}
+.footer{
+	background-color: #245076;
+}
+	.footer ul{
+		list-style: none;
+		margin-left: 207px;
+	}
+	.footer ul li{
+		display: inline-block;
+		margin: 45px 57px 13px 0;
+	}
+	.footer a{
+		text-decoration: none;
+		color: #7baedb;
+	}
+	.footer p{
+		text-align: center;
+		color: #7baedb;
+		font-size: 12px;
+		padding-bottom: 8px;
+	}
